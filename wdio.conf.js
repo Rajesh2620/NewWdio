@@ -155,7 +155,7 @@ exports.config = {
         ['junit', {
             outputDir: './jureports',
             outputFileFormat: function (options) { // optional
-                return `results-${options.cid}.${options.capabilities}.xml`
+                return `results-${new Date().getDate()}.xml`
             }
         }],
         
