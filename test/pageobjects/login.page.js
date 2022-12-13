@@ -18,7 +18,7 @@ class LoginPage extends Page {
     }
 
     get btnSubmit () {
-        return $('button[type="submi]');
+        return $('button[type="submit"]');
     }
 
     /**
