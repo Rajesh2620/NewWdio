@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Login application" timestamp="2022-12-13T15:55:14" time="4.93" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.108_0_5359_99.windows"/>
+      <property name="file" value="file:///D:/NewWdio/test/specs/example.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.108_0_5359_99.windows.My_Login_application" name="should login with valid credentials" time="4.928">
+      <system-out><![CDATA[
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element/e9687752-99da-46e2-b6f6-c4ed7086585e/clear - {}
+RESULT: {}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element/e9687752-99da-46e2-b6f6-c4ed7086585e/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element/1d31ecf8-cb05-4aa7-8487-e2dcf432f8b0/clear - {}
+RESULT: {}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element/1d31ecf8-cb05-4aa7-8487-e2dcf432f8b0/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element/053eb2ac-c30e-4d23-946f-78c6fb1ef408/click - {}
+RESULT: {}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/elements - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/1eb7d03373e2afb524c9c77964784459/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/1eb7d03373e2afb524c9c77964784459/element/191619dc-d347-421d-b32f-f939f2181797/text - {}
+RESULT: {}
+COMMAND: DELETE /session/1eb7d03373e2afb524c9c77964784459 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
