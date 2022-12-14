@@ -153,17 +153,17 @@ exports.config = {
     reporters: [
         'dot',
         ['junit', {
-            outputDir: './',
+            outputDir: './jureports',
             outputFileFormat: function (options) { // optional
                 return `results-${new Date().getTime()}.xml`
             }
         }],
         
-        ['allure', {
-            outputDir: 'allure-results',
-            disableWebdriverStepsReporting: false,
-            disableWebdriverScreenshotsReporting: false,
-        }],
+        // ['allure', {
+        //     outputDir: 'allure-results',
+        //     disableWebdriverStepsReporting: false,
+        //     disableWebdriverScreenshotsReporting: false,
+        // }],
     ],
     //
     // =====
