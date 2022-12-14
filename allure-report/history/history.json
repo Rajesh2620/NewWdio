@@ -1,1 +1,1 @@
-{}
+{"b283b273719932eef17af07e1dd5329f":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"7abc1ef841440536","status":"broken","statusDetails":"Can't call setValue on element with selector \"#passwor\" because element wasn't found","time":{"start":1670931268596,"stop":1670931283334,"duration":14738}}]}}
