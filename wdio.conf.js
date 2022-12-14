@@ -1,8 +1,11 @@
 exports.config = {
 
 
-    user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    //user: process.env.BROWSERSTACK_USERNAME,
+   // key: process.env.BROWSERSTACK_ACCESS_KEY,
+    user: 'manchalarajesh_MBbvPV',
+    key: 'UiNaM1bsXBPpsCp7CgVp',
+    hostname: 'hub.browserstack.com',
     //
     // ====================
     // Runner Configuration
@@ -118,7 +121,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     //services: ['chromedriver'],
     services: ['selenium-standalone'],
-    //services: ['browserstack'],
+    services: ['browserstack'],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -159,11 +162,11 @@ exports.config = {
             }
         }],
         
-        // ['allure', {
-        //     outputDir: 'allure-results',
-        //     disableWebdriverStepsReporting: false,
-        //     disableWebdriverScreenshotsReporting: false,
-        // }],
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
+        }],
     ],
     //
     // =====
