@@ -14,7 +14,7 @@ class LoginPage extends Page {
     }
 
     get inputPassword () {
-        return $('#passwor');
+        return $('#password');
     }
 
     get btnSubmit () {
