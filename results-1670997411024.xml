@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Login application" timestamp="2022-12-14T11:27:04" time="14.583" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.108_0_5359_99.windows"/>
+      <property name="file" value="file:///D:/NewWdio/test/specs/example.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.108_0_5359_99.windows.My_Login_application" name="should login with valid credentials" time="14.582">
+      <failure/>
+      <error message="Can't call setValue on element with selector &quot;#passwor&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/element/73370eea-a136-4351-b1c9-d9705e9495a8/clear - {}
+RESULT: {}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/element/73370eea-a136-4351-b1c9-d9705e9495a8/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/element - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: POST /session/dac42b15abe47b6bb97d2a4683b9bb01/elements - {"using":"css selector","value":"#passwor"}
+RESULT: {"using":"css selector","value":"#passwor"}
+COMMAND: GET /session/dac42b15abe47b6bb97d2a4683b9bb01/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/dac42b15abe47b6bb97d2a4683b9bb01 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call setValue on element with selector "#passwor" because element wasn't found
+    at async LoginPage.login (D:\NewWdio\test\pageobjects\login.page.js:30:9)
+    at async Context.<anonymous> (D:\NewWdio\test\specs\example.e2e.js:8:9)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
