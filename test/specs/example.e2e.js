@@ -10,7 +10,7 @@ describe('My Login application', () => {
         await expect(SecurePage.flashAlert).toHaveTextContaining(
             'You logged into a secure area!')
         console.log('hi');
-        console.log('hello');
+        console.log('Rajesh');
     })
 })
 
